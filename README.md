@@ -1,5 +1,7 @@
 # Interceptor for Token Management
 
+[![npm downloads](https://img.shields.io/npm/dm/em-interceptor)](https://www.npmjs.com/packageem-interceptor)
+
 This module provides an Axios interceptor for handling authentication tokens in JavaScript and TypeScript applications. The interceptor automatically attaches authentication tokens to outgoing requests and refreshes them when necessary to ensure seamless user authentication.
 
 ## Features
