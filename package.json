@@ -9,8 +9,7 @@
 		"dist"
 	],
 	"scripts": {
-		"build": "rimraf dist && tsup",
-		"test": "mocha -r ts-node/register 'tests/**/*.test.ts'"
+		"build": "rimraf dist && tsup"
 	},
 	"repository": {
 		"type": "git",
@@ -30,7 +29,6 @@
 	"homepage": "https://github.com/Ethern-Myth/em-interceptor#readme",
 	"devDependencies": {
 		"rimraf": "^5.0.5",
-		"ts-node": "^10.9.2",
 		"tsup": "^8.0.2",
 		"typescript": "^5.4.2"
 	},
